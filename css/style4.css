@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+    font-family: Ubuntu;
+    letter-spacing: 1px;
+  }
+  
+  .hero {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: rgb(50, 50, 50);
+    background: url(../img/art1.jpg) no-repeat 50% 50% fixed;
+    background-size: 130%;
+    overflow: hidden;
+  }
+  
+  .hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    padding: .3em;
+    font-size: 3em;
+    font-weight: lighter;
+  }
+  
+  .content-wrapper {
+    width: 80%;
+    padding: 1em 10%;
+  }
+  
+  .content-wrapper h1 {
+    margin: 0;
+    color: rgb(220, 120, 0);
+  }
+  
+  .content-wrapper p {
+    font-family: "Open Sans";
+    text-indent: 1.5em;
+  }
+
+  .other-art{
+    padding-left: 10%;
+  }
+  .link-art {
+    margin-right: 2%;
+    text-align: center;
+    padding: 1%;
+    display: inline-block;
+    width: 30%;
+    background-color: #006400;
+  }
+  .link-art:hover {
+    font-size: 1.2em;
+    background-color: #23c023;
+  }

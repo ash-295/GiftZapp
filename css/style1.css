@@ -1,0 +1,45 @@
+html
+{
+    scroll-behavior: smooth;
+}
+.social-link
+    {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+#about, #recent, #popular
+{
+    background-image: linear-gradient(to right, #1c92d2, #f2fcfe);
+}
+.heading-topic
+{
+    font-family: 'Goldman', cursive;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 5%;
+    font-size: 4.5em;
+}
+.heading-subtopic
+{
+    font-family: 'Goldman', cursive;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 3%;
+    font-size: 2.5em;
+}
+.view
+    {
+        padding-top: 3%;
+    }
+#footer
+    {
+        background-image: linear-gradient(to right, #283048, #859398);
+        color: cyan;
+    }
+.footer-copyright
+    {
+        color: black;
+        background-color: burlywood;
+    }
